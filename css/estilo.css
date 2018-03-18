@@ -1,0 +1,394 @@
+
+/* Para poner largas los campos a la hora de registrarse.*/
+#customer_details input[type="email"], #customer_details input[type="password"], #customer_details input[type="number"], #customer_details input[type="time"]{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+input[type="number"]{
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.coleccion{
+  color: #e4cc0f;
+}
+.coleccion:hover{
+  color: #FFFF00;
+}
+
+.single-sidebar2 select{
+    margin-bottom: 10px;
+    width: 40%;
+    height: 30px;
+}
+
+.single-sidebar2 input[type="number"]{
+    margin-bottom: 10px;
+    width: 15%;
+}
+
+.single-sidebar2 input[type="submit"]{
+    
+}
+
+/* Ara el index*/
+.inicio{
+  max-width: 100%;
+  height: 200px;
+}
+
+.single-sidebar2 form a{
+    float: right;
+    background: none repeat scroll 0 0 #5a88ca;
+    border: medium none;
+    color: #fff;
+    padding: 11px 20px;
+    text-transform: uppercase;
+    margin-left: 5px;
+} 
+
+/* Para mostrar la pregunta*/
+.product-upper textarea{
+    width: 100%;
+}
+
+/* Centrar el parrafo de dar de baja, alta y eliminiar*/
+.parrafo {
+    text-align: center;
+}
+
+
+
+/* Centrar usuarios en pantalla pequeña*/
+.single-shop-product {
+    text-align: center;
+}
+
+
+
+/* PAra centrar la imagen a la hora de ver los detalles de un ususario*/
+.product-main-img {
+    text-align: center;
+}
+
+
+
+/* Para poner el boton de reset en grande*/
+input[type="reset"], button[type=reset] {
+    background: none repeat scroll 0 0 #5a88ca;
+    border: medium none;
+    color: #fff;
+    padding: 11px 20px;
+    text-transform: uppercase;
+}
+
+
+
+/*              PARA MOSTRAR EL USUARIO     */
+.shopping-item-mio {
+    float: right;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+	
+td.product-thumbnailmini img {
+    height: auto;
+    width: 40px;
+}
+
+td.product-thumbnailmensaje img {
+    height: auto;
+    width: 40px;
+    margin-right: 10px;
+}
+
+
+
+.product-main-img img{
+    width: 50%
+}
+
+
+.imagenUsuario{
+    height: 150px;
+    width: 150px;
+}
+
+.imagenColeccion{
+    height: 250px;
+    width: 100%;
+}
+
+
+.product-main-imgFicha img {
+    height: 300px;
+    width: 80%;
+}
+
+.imagenFicha{
+    height: 300px;
+    width: 100%;
+}
+
+
+.single-product:hover #product-f-image .product-hover a.add-to-cart-link {
+    top: 42%;
+}
+
+
+.single-product-area-juego {
+  padding: 5px 0 130px;
+}
+
+
+/* Para mostrar imagenes del ranking*/
+.recent-thumb-ranking{
+  float: left;
+  height: 65px;
+  margin-right: 15px;
+  width: 65px;
+}
+
+
+/* estilo de botones jugar coleccion
+ */
+.boton{
+      text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+            text-align:center;
+            text-decoration: none;
+      font-family: 'Helvetica Neue', Helvetica, sans-serif;
+      font-size:100%;
+      margin: 2px;
+      display:inline-block;
+            color: #FFF;
+            background: #7F8C8D;
+            padding: 2% 5%;
+            white-space: nowrap;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 100px;
+            margin:3%;
+            -webkit-transition: all 0.2s ease-in-out;
+            -ms-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+}
+
+.verde{
+  background: #2ECC71;
+  box-shadow: 0px 5px 0px 0px #27AE60;
+}
+
+.verde:hover{
+  background: #32db78;
+}
+
+.verde:active{
+  box-shadow: 0px 2px 0px 0px #27AE60;
+}
+
+.rojo{
+  background: #B40202;
+  box-shadow: 0px 5px 0px 0px #810505;
+}
+
+.rojo:hover{
+  background: #F50505;
+}
+
+.rojo:active{
+  box-shadow: 0px 2px 0px 0px #C0392B;
+}
+.amarillo{
+  background: #C2D513;
+  box-shadow: 0px 5px 0px 0px #9A7D0A;
+}
+
+.amarillo:hover{
+  background: #E1FA00;
+}
+
+.amarillo:active{
+  box-shadow: 0px 2px 0px 0px #9A7D0A;
+}
+
+.naranja{
+
+  background: #F5740E ;
+  box-shadow: 0px 5px 0px 0px #925205;
+}
+
+.naranja:hover{
+  background: #F0950A;
+}
+
+.naranja:active{
+  box-shadow: 0px 2px 0px 0px #925205;
+}
+.morado{
+  background: #6C3483;
+  box-shadow: 0px 5px 0px 0px #4A235A;
+}
+
+.morado:hover{
+  background: #8E44AD;
+}
+
+.morado:active{
+  box-shadow: 0px 2px 0px 0px #4A235A;
+}
+
+
+
+
+
+
+/*******************************************************************************************************************************************/
+/*                      RESPONSIVE                  */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) { 
+    input[type="reset"], button[type="reset"] {
+        padding: 11px 15px;
+    }
+    .shopping-item-mio table tbody tr td.product-name {
+        font-size: 15px;
+    }
+
+
+    .imagenUsuario{
+        height: 150px;
+        width: 150px;
+    }
+
+
+
+
+}
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .shopping-item-mio table {
+       margin: 0 auto;
+       text-align: left;
+    }
+
+    .shopping-item-mio {
+        text-align: center;
+        float: none;
+        font-size: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        
+    }
+
+    .shopping-item-mio table tbody tr td.product-name {
+        font-size: 15px;
+    }
+
+    .imagenUsuario{
+        height: 150px;
+        width: 150px;
+    }
+
+
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+
+    td.product-thumbnail img.usuario {
+        width: 70px;
+    }
+
+    .imagenUsuario{
+        height: 150px;
+        width: 150px;
+    }
+
+
+    .shopping-item-mio table {
+       margin: 0 auto;
+       text-align: left;
+    }
+
+    .shopping-item-mio {
+        text-align: center;
+        float: none;
+        font-size: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        
+    } 
+
+    .shopping-item-mio table tbody tr td.product-name {
+        font-size: 15px;
+    }
+}
+
+/* Para el radio */
+.option-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 13.33333px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  transition: all 0.15s ease-out 0s;
+  background: #cbd1d8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+}
+.option-input:hover {
+  background: #9faab7;
+}
+.option-input:checked {
+  background: #40e0d0;
+}
+.option-input:checked::before {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  content: '✔';
+  display: inline-block;
+  font-size: 26.66667px;
+  text-align: center;
+  line-height: 30px;
+}
+.option-input:checked::after {
+  -webkit-animation: click-wave 0.65s;
+  -moz-animation: click-wave 0.65s;
+  animation: click-wave 0.65s;
+  background: #40e0d0;
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+.option-input.radio {
+  border-radius: 50%;
+}
+.option-input.radio::after {
+  border-radius: 50%;
+}
+
