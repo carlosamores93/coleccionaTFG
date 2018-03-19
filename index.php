@@ -68,7 +68,10 @@
   <head>
     <meta charset="utf-8">
     <link rel="icon" href="img/icono.png">
-    <title>Colecciona</title>
+    <title> Sistema para creación y gestión de colecciones on-line educativos </title>
+    <meta name="DC.title" content="Sistema para creación y gestión de colecciones on-line educativos">
+    <meta name="description" content="Trabajo de fin de grado(TFG): Sistema para creación y gestión de colecciones on-line con fines educativos, desarrollado por Carlos Salvador Amores Martínez, Victor Cabezas y Felipe Aguilar, en la Facultad de Informática (FDI), de la Universidad Complutense de Madrid (UCM)">
+    <meta name="DC.description" content="Trabajo de fin de grado(TFG): Sistema para creación y gestión de colecciones on-line con fines educativos, desarrollado por Carlos Salvador Amores Martínez, Victor Cabezas y Felipe Aguilar, en la Facultad de Informática (FDI), de la Universidad Complutense de Madrid (UCM)">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -88,6 +91,17 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/estilo.css">
+
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106243692-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-106243692-1');
+	</script>
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
